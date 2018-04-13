@@ -1,2 +1,2 @@
 # DockerTests
-Working through some tests
+Working through some tests, want to make a python script that reads a file (local disc) that's executed inside a docker container.  here goes nothing...
