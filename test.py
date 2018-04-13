@@ -23,4 +23,4 @@ cc = cur_db.fetchall()
 print cc
 
 
-print "test slack integration"
+print "we did it test slack integration"
