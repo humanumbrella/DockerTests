@@ -21,3 +21,6 @@ cur_db.execute("SELECT * FROM fdsa")
 cc = cur_db.fetchall()
 
 print cc
+
+
+print "test slack integration"
