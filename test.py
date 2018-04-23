@@ -1,4 +1,5 @@
 import MySQLdb
+import os
 
 f = open("read-from-file.txt","r")
 
@@ -18,5 +19,6 @@ cc = cur_db.fetchall()
 
 print cc
 
+print os.listdir("/asdf")
 
 print "we did it test slack integratiossssn"
