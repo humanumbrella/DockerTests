@@ -7,17 +7,17 @@ lines = f.read()
 
 print lines.rstrip()
 
-db = MySQLdb.connect(host="host.docker.internal",port=8889,user="asdf", passwd="asdf", db="asdf")
+# db = MySQLdb.connect(host="host.docker.internal",port=8889,user="asdf", passwd="asdf", db="asdf")
 
-print "connected to db!"
+# print "connected to db!"
 
-cur_db = db.cursor()
+# cur_db = db.cursor()
 
-cur_db.execute("SELECT * FROM fdsa")
+# cur_db.execute("SELECT * FROM fdsa")
 
-cc = cur_db.fetchall()
+# cc = cur_db.fetchall()
 
-print cc
+# print cc
 
 print os.listdir("/asdf")
 
